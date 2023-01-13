@@ -1,28 +1,23 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
 
-# add list to code 
+heroes= ["Spiderman", "Batman", "Black Panther", "Wonder Woman", "Storm"]
 
-wordbank = ["indentation", "spaces"] 
+# PART 1
+# Print out your favorite character from this list! The output would look something like:
+# My favorite character is Black Panther!
+print(f"My favorite character is {heroes[1]}.") 
 
-# list of tlg students
-tlgstudents= ['Albert', 'Anthony', 'Brenden', 'Craig', 'Deja', 'Elihu', 'Eric', 'Giovanni', 'James', 'Joshua', 'Maria', 'Mohamed', 'PJ', 'Philip', 'Sagan', 'Suchit', 'Meka', 'Trey', 'Winton', 'Xiuxiang', 'Yaping'] 
-
-# print list for readability
-print(tlgstudents)
-
-# append the integer <4> to the list wordbank
-wordbank.append(4) 
-print(wordbank)
-
-# Include an input asking for a number between 0 and 20. Save this as the variable num
-num = input("Pick a student number!") 
-
-# Remember that input() always returns a string... convert num into an integer!
-num = int(input("Pick a student number!")) 
-
-# 
-choice= int(input("Pick a student number!")) 
-student_name= tlgstudents[choice] 
+# PART 2
+# Ask the user to pick a number between 1 and 100.
+# Convert the input into an integer.
+randint = int(input("choose a num between 1 & 100\n"))
 
 
-print(f"{student_name}  always uses {wordbank[0]} {wordbank[1]} to indent.")) 
+nums= [1, -5, 56, 987, 0]
+
+# PART 3
+# check out https://docs.python.org/3/library/functions.html or go to Google
+# use a built-in function to find which integer in nums is the biggest.
+# then, print out that number!
+
+print(max(nums))
